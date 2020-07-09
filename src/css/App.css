@@ -1,0 +1,121 @@
+@import url("normalize.css");
+@import url("skeleton.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,400");
+.alert p  {
+  margin-bottom: 0 !important;
+}
+body {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+}
+header {
+  margin: 30px 0;
+}
+.contenido {
+  padding: 20px;
+}
+.contenido-principal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.presupuesto p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.presupuesto p span {
+  font-weight: normal;
+}
+#gastos {
+  margin-bottom: 30px;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  font-size: 4.8rem !important;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: #004e92;
+  margin-bottom: 30px;
+  font-size: 3rem !important;
+  text-align: center;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #1e3a56;
+  margin-bottom: 3px;
+  font-size: 2rem !important;
+  text-align: start;
+}
+.campo {
+  margin-bottom: 2rem;
+}
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+.gastos-realizados {
+  margin-bottom: 2rem;
+}
+.gastos-realizados li {
+  list-style: none;
+  margin-bottom: 0rem;
+  /* border-bottom: 1px solid #e1e1e1; */
+  padding: 0.5rem 0;
+}
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0 !important;
+}
+.d-flex {
+  display: flex;
+}
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.mb-2 {
+  margin: 2rem;
+}
+.border-bottom {
+  border-bottom: 2px solid #f2f2f2;
+}
